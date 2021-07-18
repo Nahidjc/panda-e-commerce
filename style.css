@@ -46,3 +46,20 @@ ul li {
     cursor: pointer;
 
 }
+
+.watch-box {
+    background-color: #FFA500;
+}
+
+.bag-box {
+    background-color: #DA70D6;
+}
+
+.shoes-box {
+    background-color: #0000F6;
+}
+
+.category-box {
+    border-radius: 10px;
+    padding: 10px 30px;
+}
