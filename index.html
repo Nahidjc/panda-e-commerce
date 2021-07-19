@@ -15,8 +15,8 @@
 
     <header class="container">
         <!-- Navbar Using Bootstrap-5 -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid  ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" srcset="">
                 </a>
@@ -31,13 +31,14 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#categories">Category</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#product">Product</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -127,9 +128,9 @@
 
         <!-- Category section -->
 
-        <div class="category mt-5">
-            <div class="row text-white">
-                <div class="col-md-4 col-sm-12">
+        <div class="category mt-5" id="categories">
+            <div class="row text-white gy-4">
+                <div class="col-md-4 col-sm-12 ">
                     <div class="watch-box d-flex justify-content-between align-items-center category-box">
                         <h1>Watch</h1>
                         <img src="images/categories/bag.png" alt="">
@@ -160,14 +161,14 @@
 
     <main>
 
-        <section class="container pb-5">
+        <section class="container pb-5" id="product">
             <div class="shoes-section p-md-4">
                 <p>
                 <h1 class="d-inline">Shoes</h1> <span class="h4 float-end" style="color: #FF9D00;
                 ">See All</span> </p>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card h-100">
+                    <div class="col ">
+                        <div class="card h-100 ">
                             <img src="images/shoes/shoe-1.png" class="card-img-top mb-4" alt="...">
                             <div class="card-body text-center">
                                 <h5 class="h4 card-title">Reebok Dart Men’s Shoes</h5>
@@ -265,7 +266,7 @@
     <footer>
         <section class="py-5 container">
 
-            <div class="footer-bg d-flex justify-content-center align-items-center">
+            <div class="footer-bg d-flex justify-content-center align-items-center" id="contact">
 
                 <div>
                     <h1>LET'S STAY IN TOUCH</h1>
