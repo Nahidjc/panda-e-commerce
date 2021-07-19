@@ -13,6 +13,11 @@ ul li {
     padding: 0 10px;
 }
 
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
 .container {
     width: 60% !important;
 }
@@ -91,4 +96,12 @@ main {
     background: #000000;
     border-radius: 6px;
     color: white;
+}
+
+/* All Styles Code of footer */
+
+.footer-bg {
+    height: 455px;
+
+    background: #FFF2F1;
 }
